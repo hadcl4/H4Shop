@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=H4Shop
+Exec=/bin/dash /usr/local/bin/H4Shop/start
+Icon=/usr/local/bin/H4Shop/icon.png
+Type=Application
+Terminal=False
+StartupNotify=True

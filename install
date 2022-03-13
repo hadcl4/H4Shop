@@ -2,5 +2,9 @@
 echo "H4Store Installer"
 echo "Don't worry, this will be quick."
 sudo apt install python3-webview
-chmod +x h4store.desktop
-sudo cp h4store.desktop /usr/share/applications/h4store.desktop
+chmod +x start
+sudo mkdir /usr/local/bin/H4Shop
+sudo cp start /usr/local/bin/H4Shop/start
+sudo cp assets/icon.png /usr/local/bin/H4Shop/icon.png
+chmod +x h4shop.desktop
+sudo cp h4shop.desktop /usr/share/applications/h4shop.desktop

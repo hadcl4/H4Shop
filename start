@@ -1,3 +1,4 @@
 #!/bin/dash
+cd ${HOME}/H4Shop
 echo "H4Shop"
 python3 main.py $USER
