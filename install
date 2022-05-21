@@ -1,5 +1,5 @@
 #!/bin/dash
-echo "H4Store Installer"
+echo "H4Shop Installer"
 echo "Don't worry, this will be quick."
 sudo apt install python3-webview
 chmod +x start
